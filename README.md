@@ -25,11 +25,13 @@ After the application launches, it displays all the entries that need to be adde
 
 The hosts file can usually be found here:
 
-- C:\WINDOWS\hosts.sam  --  (Windows 98 and Me)
+- C:\WINDOWS\hosts  --  (Windows 98 and Me)
 - C:\WINNT\system32\drivers\etc\hosts -- (Windows 2000)
 - C:\WINDOWS\system32\drivers\etc\hosts -- (Windows XP, Vista and 7)
 
 Please note that on Windows Vista and 7 you need administrator privileges to edit the file. The easiest way is to copy the file to the desktop, modify it, and copy it back into the etc folder.
+
+On Windows 98 and Me the hosts file might not exist. Just rename the hosts.sam to hosts. Furthermore if you encounter issues you might need to enable DNS resolution in the TCP-IP settings within the network settings, otherwise the hosts file could be ignored.
 
 ## FAQ
 ### Why is this needed?
